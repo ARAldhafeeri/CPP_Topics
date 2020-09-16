@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+-HEAPS:
+- is a tree datastructure where the parent is always bigger than children.
+
+- Benefitial of heaps is to turn a tree into a list.
+- We can go the other way around by turring a list into a heap
+
+std::make_heap(begin(numbers), end(numbers));
+
+- we can push a number:
+
+numbers.push_back(8.88);
+std:push_heap(begin(numbers), end(numbers));
+
+- To remove the maximum value in a heap we use:
+
+std::pop_heap(begin(numbers), end(numers));
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+- SORTNG: Two types sort, partial_sort, partial_sort, nth_element_ sort_heap, inplace_merge
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+- PARTITIONING:
+ ordering elements based on partitions  ( CHECK IMAGES )
+
+
